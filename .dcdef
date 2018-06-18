@@ -20,9 +20,9 @@
 		<moin xmlns="http://xml.sap.com/2007/05/MoinModel">
 			<moin_folders/>
 			<moin_resource_folders>
-				<folder path="mc"/>
 				<folder path="rep"/>
 				<folder path="src"/>
+				<folder path="mc"/>
 			</moin_resource_folders>
 		</moin>
 	</properties>
@@ -59,6 +59,14 @@
 		<dependency>
 			<dc-ref>
 				<name>bie/sca/scdl/contributors/mc</name>
+				<vendor>sap.com</vendor>
+			</dc-ref>
+			<pp-ref>def</pp-ref>
+			<at-build-time/>
+		</dependency>
+		<dependency>
+			<dc-ref>
+				<name>bie/sca/scdl/contributors/xi</name>
 				<vendor>sap.com</vendor>
 			</dc-ref>
 			<pp-ref>def</pp-ref>

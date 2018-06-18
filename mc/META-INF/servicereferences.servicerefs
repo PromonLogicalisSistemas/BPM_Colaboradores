@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/ide/es/config/mc/model' i='1' v='2.0.0'/>
+<M c='1' q='mc.logicalsystem.QName' i='471DAFAC55EC9E6C814111DCA447003005C6B92C'/>
+<M c='1' q='mc.servicereferences.ServiceReference' i='471DAFAC55EE250E814111DC8ECA003005C6B92C'/>
+<M c='1' q='mc.servicereferences.serviceref_logicalSystem' i='471DAFAC55EFABA2814111DCC1B9003005C6B92C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='mc.servicereferences.serviceref_authenticationProfile' i='471DAFAC55EFABA5814111DCA3E1003005C6B92C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='mc.servicereferences.serviceref_qname' i='471DAFAC55F13240814111DCC062003005C6B92C' se='1' ce='1' oe='-1'/>
+<M c='1' q='mc.servicereferences.ServiceReferenceCustomAttributes' i='E071FFE67B8562C5384611E09E32002710A58A9C'/>
+<M c='1' q='mc.servicereferences.ref_CustomAttributes' i='E071FFE6FAC645EF384611E08198002710A58A9C' se='1' ce='-1' oe='-1'/>
+<mc.logicalsystem.QName m:c='1' m:i='E016575C19ADF8D7731A11E8929B00059A3C7A00' name='SendToRD' namespace='http://promon.com.br/Colaboradores'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E016575C19ADF8D8731A11E8C2D100059A3C7A00' id='c7c02701-cc73-4c69-b3fc-f61dfc96497e' type='WS' bindingType='XI' scdlBindingType='xi'/>
+<mc.logicalsystem.QName m:c='1' m:i='E016575CD5CE877B731911E88B2000059A3C7A00' name='GetFromDatasul' namespace='http://promon.com.br/Colaboradores'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E016575CD5CEBA62731911E8B2B600059A3C7A00' id='37461eab-0a2e-4efd-8413-87c911c3e52d' type='WS' bindingType='XI' scdlBindingType='xi'/>
+<mc.logicalsystem.QName m:c='1' m:i='E016575CFE45D5C6731911E8929700059A3C7A00' name='SendToECC' namespace='http://promon.com.br/Colaboradores'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E016575CFE45F69C731911E89B1A00059A3C7A00' id='22f2217a-afb5-458d-889a-2d8adf4e5b1a' type='WS' bindingType='XI' scdlBindingType='xi'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0B91841B6A51EE8731A11E89C3500059A3C7A00' key='senderPartyName' value=''/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0B91841B6A58737731A11E89C4900059A3C7A00' key='senderServiceName' value='INTEGRATION_ENGINE_JAVA_POD'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0B91841D28AEA15731A11E8857100059A3C7A00' key='senderPartyName' value=''/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0B91841D28B50C5731A11E89E1500059A3C7A00' key='senderServiceName' value='INTEGRATION_ENGINE_JAVA_POD'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0B91841E058219C731A11E8901500059A3C7A00' key='senderPartyName' value=''/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0B91841E0584042731A11E88D2600059A3C7A00' key='senderServiceName' value='INTEGRATION_ENGINE_JAVA_POD'/>
+<mc.servicereferences.serviceref_logicalSystem c='1'>
+<L f='local:E04695304ED4048E730511E8863850B7C301BCB6' s='E016575C19ADF8D8731A11E8C2D100059A3C7A00'/>
+<L f='local:E04695304ED4048E730511E8863850B7C301BCB6' s='E016575CD5CEBA62731911E8B2B600059A3C7A00'/>
+<L f='local:E04695304ED4048E730511E8863850B7C301BCB6' s='E016575CFE45F69C731911E89B1A00059A3C7A00'/>
+</mc.servicereferences.serviceref_logicalSystem>
+<mc.servicereferences.serviceref_authenticationProfile c='1'>
+<L f='local:E016575CD5C352D6731911E8AEBB00059A3C7A00' s='E016575C19ADF8D8731A11E8C2D100059A3C7A00'/>
+<L f='local:E016575CD5C352D6731911E8AEBB00059A3C7A00' s='E016575CD5CEBA62731911E8B2B600059A3C7A00'/>
+<L f='local:E016575CD5C352D6731911E8AEBB00059A3C7A00' s='E016575CFE45F69C731911E89B1A00059A3C7A00'/>
+</mc.servicereferences.serviceref_authenticationProfile>
+<mc.servicereferences.serviceref_qname c='1'>
+<L f='E016575C19ADF8D7731A11E8929B00059A3C7A00' s='E016575C19ADF8D8731A11E8C2D100059A3C7A00'/>
+<L f='E016575CD5CE877B731911E88B2000059A3C7A00' s='E016575CD5CEBA62731911E8B2B600059A3C7A00'/>
+<L f='E016575CFE45D5C6731911E8929700059A3C7A00' s='E016575CFE45F69C731911E89B1A00059A3C7A00'/>
+</mc.servicereferences.serviceref_qname>
+<mc.servicereferences.ref_CustomAttributes c='1'>
+<L f='E0B91841D28AEA15731A11E8857100059A3C7A00' s='E016575C19ADF8D8731A11E8C2D100059A3C7A00'/>
+<L f='E0B91841D28B50C5731A11E89E1500059A3C7A00' s='E016575C19ADF8D8731A11E8C2D100059A3C7A00'/>
+<L f='E0B91841B6A51EE8731A11E89C3500059A3C7A00' s='E016575CD5CEBA62731911E8B2B600059A3C7A00'/>
+<L f='E0B91841B6A58737731A11E89C4900059A3C7A00' s='E016575CD5CEBA62731911E8B2B600059A3C7A00'/>
+<L f='E0B91841E058219C731A11E8901500059A3C7A00' s='E016575CFE45F69C731911E89B1A00059A3C7A00'/>
+<L f='E0B91841E0584042731A11E88D2600059A3C7A00' s='E016575CFE45F69C731911E89B1A00059A3C7A00'/>
+</mc.servicereferences.ref_CustomAttributes>
+</Partition>
