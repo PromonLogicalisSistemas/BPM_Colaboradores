@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/ide/es/config/mc/model' i='1' v='2.0.0'/>
+<C n='sap.com/tc/moin/textverticalization' i='2' v='2.0.0'/>
+<M c='1' q='mc.logicalsystem.LogicalSystem' i='471DAFAC55EC9E66814111DCC42E003005C6B92C'/>
+<mc.logicalsystem.LogicalSystem m:c='1' m:i='E046953062A3E5FB730511E88F2D50B7C301BCB6' name='BpmStarters' guid='1a74b3a1-7088-4b54-829d-8a90765ecb40' isLocalProviderSystem='true'>
+<displayName maxWidth='120' originalText='BpmStarters' resType='label' translate='false' transUnitId='62A3E5FA730511E89C9750B7C301BCB6' resName='1a74b3a1-7088-4b54-829d-8a90765ecb40.consgroup.name'/>
+<description maxWidth='120' originalText='Inicializadores (SOAP) dos processos' resType='description' translate='true' transUnitId='62A3E5F9730511E8A75E50B7C301BCB6' resName='1a74b3a1-7088-4b54-829d-8a90765ecb40.consgroup.description'/>
+</mc.logicalsystem.LogicalSystem>
+</Partition>
